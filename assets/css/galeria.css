@@ -132,3 +132,90 @@ footer {
 #contato a:hover {
     transform:scale(1.1);
 }
+
+@media (max-width: 1024px) {
+
+    header {
+        height: auto;
+        padding: 2vh 0;
+    }
+
+    #navegacao {
+        gap: 3vh;
+        margin-left: 4vh;
+        font-size: 2vh;
+    }
+
+    #imagem-logo {
+        width: 8vh;
+        margin-right: 4vh;
+    }
+
+    footer {
+        padding: 2vh;
+        text-align: center;
+    }
+
+    #texto-contato {
+        gap: 1.5vh;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vh;
+        height: auto;
+        padding: 3vh 0;
+    }
+
+    #navegacao {
+        margin: 0;
+        gap: 2vh;
+        font-size: 2vh;
+        text-align: center;
+    }
+
+    #imagem-logo {
+        margin: 0;
+        width: 9vh;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 2vh;
+        padding: 2.5vh;
+        text-align: center;
+    }
+
+    #texto-contato {
+        flex-direction: column;
+        gap: 1vh;
+    }
+
+    #contato a {
+        width: 15vh;
+        height: 4.5vh;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #navegacao {
+        gap: 1.5vh;
+        font-size: 1.8vh;
+    }
+
+    #imagem-logo {
+        width: 8vh;
+    }
+
+    #contato a {
+        width: 17vh;
+        height: 5vh;
+        font-size: 1.7vh;
+    }
+}
+
