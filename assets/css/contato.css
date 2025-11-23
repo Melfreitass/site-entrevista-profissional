@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Jost:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Stack+Sans+Text:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Jost:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Stack+Sans+Text:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(57, 86, 139);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navegacao {
+    display: flex;
+    flex-direction: row;
+    gap: 6vh;
+    margin-left: 7vh;
+    color: white;
+    font-size: 2vh;
+    font-family: "Jost", sans-serif;
+    font-style: oblique;   
+    text-decoration: underline rgb(255, 230, 0) 2.3px;
+}
+
+
+#imagem-logo {
+    width: 10vh;
+    border-radius: 100%;
+    margin: 3vh;
+    margin-right: 7vh;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: rgb(241, 240, 175);
+    transform: scale(1.03);
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background-color: rgb(9, 56, 78);
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+}
+
+
+#titulo-entrevista {
+    width: 90%;
+    height: 30vh;
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img/img-entrevista.PNG);
+    border-radius: 15vh;
+    box-shadow: 0 0 6vh  rgb(0, 0, 0);
+    background-repeat: no-repeat;
+}
+
+#fundo {
+   width: 100%;
+   height: 100%; 
+   border-radius: 15vh;
+   background-color: rgba(22, 2, 54, 0.5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 2vh;
+}
+
+#titulo {
+    font-size: 8vh;
+    font-family: "Abril Fatface", sans-serif;
+    color: white;
+}
+
+#subtitulo {
+    font-size: 3vh;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#entrevista-p {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.pergunta-resposta {
+    background-color: rgb(11, 73, 102);
+    width: 150vh;
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+    border-left: 4px solid #e1e459; 
+    padding-left: 1.5vh;
+    box-shadow: 0 0 2vh  rgb(3, 31, 44);
+    color: aliceblue;
+    font-family: "Jost", sans-serif;
+    border-radius: 2.7vh;
+}
+
+.pergunta {
+    margin-top: 1.5vh;
+    font-weight: 500;
+}
+
+.resposta {
+    margin-bottom: 1.5vh;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(57, 86, 139);
+    color: white;
+    gap: 1vh;
+    font-family: "Jost", sans-serif;
+}
